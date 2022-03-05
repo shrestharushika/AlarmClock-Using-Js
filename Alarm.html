@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Alarm Clock</title>
+    </head>
+    <style>
+        #time{
+            margin-top:15%;
+            height:5%;
+            width:100%;
+            background-color: black;
+            color: yellow;
+            padding-top:1.5%;
+            padding-bottom:5;
+            font-size:30px;
+        }
+
+        .setTime{
+            position:relative;
+        }
+
+        #hour{
+            width:62px;
+            font-size: 30px;
+            border-width:5px;
+            border-color: blue;
+        }
+        #min{
+            width:62px;
+            font-size: 30px;
+            border-width:5px;
+            border-color: blue;
+        }
+        #sec{
+            width:62px;
+            font-size: 30px;
+            border-width:5px;
+            border-color: blue;
+        }
+
+        #setAlarm{
+            margin-top:2%;
+        }
+        #date{
+            width:190px;
+            margin-top:2%;
+            margin-bottom:2%;
+            font-size: 25px;
+        }
+    </style>
+    <body>
+        <center>
+            <div id="time" name="time" ></div>
+        </center><br><br>
+
+        <center>
+                <h2>Enter date and time for alarm</h2>
+
+                <form>
+
+                    <input id="date" type="text" placeholder="yyyy-mm-dd">
+                    <div class="setTime">
+                        <input type="hour" id="hour" placeholder="hh"/>
+                        <input type="min" id="min" placeholder="mm"/>
+                        <input type="sec" id="sec" placeholder="ss"/>
+
+                        
+                    </div>
+
+                    <button id="setAlarm" type="submit">Set Alarm</button>
+                </form>
+        </center>
+      
+        
+       
+
+        <script src="clock.js"></script>
+    </body>
+</html>
