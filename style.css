@@ -1,0 +1,43 @@
+#time{
+    margin-top:15%;
+    height:5%;
+    width:100%;
+    background-color: black;
+    color: yellow;
+    padding-top:1.5%;
+    padding-bottom:5;
+    font-size:30px;
+}
+
+.setTime{
+    position:relative;
+}
+
+#hour{
+    width:62px;
+    font-size: 30px;
+    border-width:5px;
+    border-color: blue;
+}
+#min{
+    width:62px;
+    font-size: 30px;
+    border-width:5px;
+    border-color: blue;
+}
+#sec{
+    width:62px;
+    font-size: 30px;
+    border-width:5px;
+    border-color: blue;
+}
+
+#setAlarm{
+    margin-top:2%;
+}
+#date{
+    width:190px;
+    margin-top:2%;
+    margin-bottom:2%;
+    font-size: 25px;
+}
